@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brain Tumor Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="logo">Brain Tumor Detection</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="detect.html">Detect Tumor</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Detection Section -->
+  <main>
+    <section class="detection-section">
+      <h1>Detect Brain Tumor</h1>
+      <p>Upload your MRI scan below to analyze and detect any potential brain tumors.</p>
+      <form id="tumor-form" enctype="multipart/form-data">
+        <input type="file" id="imageUpload" accept="image/*" required>
+        <button type="submit" class="submit-btn">Upload & Detect</button>
+      </form>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Brain Tumor Detection. All rights reserved.</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

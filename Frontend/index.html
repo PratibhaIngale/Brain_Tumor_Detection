@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brain Tumor Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="logo">Brain Tumor Detection</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#detect">Detect Tumor</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+        <h1 class="welcome">
+            Welcome to 
+        </h1>
+        <h1 class="detection">
+            <span>B</span><span>r</span><span>a</span><span>i</span><span>n</span>
+            <span>&nbsp;</span>
+            <span>T</span><span>u</span><span>m</span><span>o</span><span>r</span>
+            <span>&nbsp;</span>
+            <span>D</span><span>e</span><span>t</span><span>e</span><span>c</span><span>t</span><span>i</span><span>o</span><span>n</span>
+        </h1>
+        <p>Upload your MRI scans and detect brain tumors in seconds using AI technology.</p>
+        <a href="/api/detect" class="cta-btn">Get Started</a>
+    </div>
+</section>
+
+
+
+
+  <!-- Detect Section -->
+  <section class="detect" id="detect">
+    <div class="container">
+      <h2>Detect Brain Tumor</h2>
+      <form id="tumor-form" enctype="multipart/form-data">
+        <input type="file" id="imageUpload" accept="image/*" required>
+        <button type="submit" class="submit-btn">Upload & Detect</button>
+      </form>
+      <div id="result"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Our Project</h2>
+      <p>We use advanced machine learning algorithms to detect brain tumors from MRI scans with high accuracy, giving users an easy-to-use tool for early diagnosis.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or concerns, feel free to reach out.</p>
+      <a href="mailto:info@braintumordetection.com" class="cta-btn">Email Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Brain Tumor Detection. All rights reserved.</p>
+  </footer>
+</body>
+</html>
